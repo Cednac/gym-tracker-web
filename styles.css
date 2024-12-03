@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #FDFDFD;
+    background-color: #1C1C1C;
+}
+
+header {
+    background-color: #2E2E2E;
+    color: #FDFDFD;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #BB86FC;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background-color: #BB86FC;
+    color: #1C1C1C;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #03DAC6;
+}
+
+h2 {
+    color: #BB86FC;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #03DAC6;
+    margin: 1.5rem 0 1rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #FDFDFD;
+}
+
+ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    color: #FDFDFD;
+}
+
+.policy-content {
+    background-color: #2E2E2E;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid #BB86FC;
+}
+
+footer {
+    background-color: #2E2E2E;
+    color: grey;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    .policy-content {
+        padding: 1rem;
+    }
+}
+
+/* Add some hover effects for interactivity */
+.policy-content:hover {
+    border-color: #03DAC6;
+    transition: border-color 0.3s ease;
+}
+
+/* Add a subtle gradient to the header */
+header {
+    background: linear-gradient(to right, #2E2E2E, #1C1C1C);
+} 
